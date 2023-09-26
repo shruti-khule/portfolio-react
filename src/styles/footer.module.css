@@ -1,0 +1,41 @@
+.footer{
+  height:auto;
+  margin:3% 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+    display: block;
+    text-align:center ;
+    width:80%;
+    height:auto;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.icons{
+    font-size: clamp(2rem,3vw,3.5rem);;
+    color: rgb(255, 255, 255);
+    padding:0% 5%;
+}
+.icons:hover{
+    color: rgb(165, 105, 226);
+}
+.iconbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 5%;
+}
+.link{
+    font-size: clamp(1rem,1.8vw,4rem);
+    margin: 0% 5%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.link:hover{
+    color: rgb(165, 105, 226);
+}

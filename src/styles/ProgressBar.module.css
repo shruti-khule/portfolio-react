@@ -1,0 +1,128 @@
+.skill{
+    margin: 0px;
+    width:20vh;
+    height: 20vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    width:18vh;
+    height:18vh;
+    border-radius: 50%;
+    border: none;
+    padding:6%;
+
+}
+.inner{
+    width:15vh;
+    height :15vh;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.number{
+    color: white;
+    font-weight: 700;
+}
+.svg{
+   height: 20vh;
+    position:absolute;
+    top: 0;
+    right: 5%;
+    
+}
+.circle1{
+    width: 20vh;
+    fill: none;
+    stroke:url(#linear);
+    stroke-width: 18px;
+    stroke-dasharray: 85;
+    stroke-dashoffset: 85;
+    stroke-linecap: round;
+    /* animation: anim 2s linear forwards; */
+}
+
+
+.circle2{
+    width: 20vh;
+    fill: none;
+    stroke:url(#linear);
+    stroke-width: 18px;
+    stroke-dasharray: 85;
+    stroke-dashoffset: 85;
+    stroke-linecap: round;
+    animation: anim2 2s linear forwards;
+}
+
+.circle:hover{
+    stroke-dasharray: 85;
+    stroke-dashoffset: 0;
+    /*
+    stroke-width: 10px;
+*/
+    animation: anim 2s linear forwards;
+}
+
+@keyframes anim {
+    to{
+    stroke-dashoffset:0;
+    }
+}
+
+@keyframes anim2 {
+    to{
+    stroke-dashoffset:10;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+  
+}
+
+@media (max-width: 992px) {
+   
+    .circle{
+        stroke-width: 15px;
+       }
+     
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    .svg{
+     height:14vh;
+    }
+    .inner{
+        height:15vh;
+        width:48vw;
+    }
+    .skill{
+        width:22vh;
+        height:14vh;
+    }
+    .circle{
+        stroke-width: 12px;
+       }
+ }
+
+
+
+@media (min-width: 600px) and (max-width: 768px) {
+    /* .svg{
+        height:16vh;
+       } */
+
+}
+@media only screen and (max-width: 600px) {
+    /* .svg{
+        height:14vh;
+       } */
+
+}
