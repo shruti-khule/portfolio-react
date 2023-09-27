@@ -29,13 +29,14 @@ export const Skills=forwardRef(({},ref)=>{
                             <p className={styles.skillname}>JavaScript</p>
                             
                          </Col>
+                        
                         <Col  className={styles.col}>
-                            <ProgressBar percentage={"80%"}/>
-                            <p className={styles.skillname}>TypeScript</p>
+                            <ProgressBar percentage={"90%"}/>
+                            <p className={styles.skillname}>React</p>
                         </Col>
                         <Col  className={styles.col}>
                             <ProgressBar percentage={"80%"}/>
-                            <p className={styles.skillname}>React</p>
+                            <p className={styles.skillname}>TypeScript</p>
                         </Col>
                     </Row>
                      </Container>
@@ -46,11 +47,11 @@ export const Skills=forwardRef(({},ref)=>{
                     <Container className={styles.container}>
                     <Row className={styles.Row}>
                         <Col className={styles.col}>
-                            <ProgressBar percentage={"90%"}/>
+                            <ProgressBar percentage={"80%"}/>
                             <p className={styles.skillname}>Node.js</p>
                          </Col>
                         <Col className={styles.col}>
-                            <ProgressBar percentage={"70%"}/>
+                            <ProgressBar percentage={"80%"}/>
                             <p className={styles.skillname}>Python</p>
                         </Col>
                         <Col className={styles.col}>
@@ -65,7 +66,7 @@ export const Skills=forwardRef(({},ref)=>{
                     <Container className={styles.container}>
                     <Row className={styles.Row}>
                         <Col className={styles.col}>
-                            <ProgressBar percentage={"80%"}/>
+                            <ProgressBar percentage={"90%"}/>
                             <p className={styles.skillname}>Problem-Solving</p>
                          </Col>
                         <Col className={styles.col}>

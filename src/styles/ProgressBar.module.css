@@ -45,7 +45,6 @@
     stroke-dasharray: 85;
     stroke-dashoffset: 85;
     stroke-linecap: round;
-    /* animation: anim 2s linear forwards; */
 }
 
 
@@ -63,9 +62,7 @@
 .circle:hover{
     stroke-dasharray: 85;
     stroke-dashoffset: 0;
-    /*
-    stroke-width: 10px;
-*/
+   
     animation: anim 2s linear forwards;
 }
 
@@ -112,17 +109,3 @@
        }
  }
 
-
-
-@media (min-width: 600px) and (max-width: 768px) {
-    /* .svg{
-        height:16vh;
-       } */
-
-}
-@media only screen and (max-width: 600px) {
-    /* .svg{
-        height:14vh;
-       } */
-
-}
