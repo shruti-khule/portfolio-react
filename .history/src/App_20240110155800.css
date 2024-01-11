@@ -1,0 +1,66 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black !important;
+    font-family: 'Raleway', sans-serif;
+}
+.app{
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.navbar-container{
+  position: sticky;
+  top:0;
+}
+
+.homepage-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5%;
+  max-height: 1000px;
+  height:90%;
+  width: 100%;
+  background-image: url("assets/starry-night-sky.jpg");
+
+  backdrop-filter: blur(500px);
+  
+
+}
+
+
+
+.skills-container{
+    height: auto;
+    background-image: url("assets/starry-night-sky.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.projects-container{
+  height:auto;
+  background-image: url("assets/starry-night-sky.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.contactme-container{
+  height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.footer-container{
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
