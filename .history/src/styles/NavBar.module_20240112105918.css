@@ -1,0 +1,60 @@
+.navbar{
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    background-color: #291f1f;
+    width: 100%;
+    transition: 0.32s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+    top: 0;
+    z-index: 999;
+    font-size: 20px;
+    letter-spacing: 0.9px;
+}
+.container{
+    margin:0px 10px;
+}
+.toggle{
+    color: #ffffff;
+    background-color:white;
+    border: 1px solid #ffffff;
+
+}
+.toggle_collapse{
+    color: #ffffff;
+}
+
+.socialicons{
+    width: 20px;
+    height: 17px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    padding-right: 25px;
+}
+.socialicons:hover{
+    color: rgb(185, 104, 219);
+    
+}
+.active{
+    color:  rgb(185, 104, 219) !important;
+}
+
+.Link{
+    color: rgb(255, 255, 255);
+}
+.Link:hover{
+    color:  rgb(185, 104, 219);
+}
+
+.button{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: transparent;
+    color:  rgb(185, 104, 219);
+
+
+}

@@ -1,0 +1,125 @@
+.header{
+    height:auto;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom:10%;
+    color: white;
+    font-family: 'Lekton', sans-serif;
+    font-weight: 800;
+    margin-top: 10%;
+}
+
+.container{
+    height:60vh;
+    width:60%;
+    gap:25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.skilllogo{
+   width:90%;
+   height:65%;
+   object-fit: cover;
+}
+
+.skillname{
+    margin-top: 10px;
+    color: white;
+
+}
+
+.skillrow{
+    display: flex;
+    gap:45px;
+}
+/*
+.carouselcontainer{
+    height:auto;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel{
+    height: 50vh;
+    border-radius: 50px;
+    background-color: black;
+    width:70%;
+}
+.control-dots{
+    margin-top: 10%;
+}
+
+.firstslide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.Row{
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col{
+    display: block;
+    text-align: center;
+    height: 26vh;
+    padding: 0px;
+    margin: 5px 15px;
+}
+
+.skillname{
+    color: white;
+    padding-top: 10%;
+    margin:0 0 5% 0;
+}
+
+*/
+@media (min-width: 320px) and (max-width: 480px){
+    .skillrow{
+        display: flex;
+        gap:5px;
+    }
+    .container{
+        width: 85%;
+        margin: 20% 0%;
+    }
+    .carousel{
+        height:auto;
+    }
+
+    .skilllogo{
+        width:80%;
+        height:65%;
+        object-fit: cover;
+     }
+
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+   
+    .col{
+        width: 18vh;
+        height: 16vh;
+    }
+
+
+}
+
+

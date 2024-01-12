@@ -1,0 +1,97 @@
+.container{
+    max-width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+    margin: 0px;
+}
+.maintitle{
+    font-weight: 800;
+    margin-top: 12%;
+    color: #f0ebeb;
+    text-align: center;
+    font-family: 'Lekton', sans-serif;
+
+}
+.title{
+    font-weight: 800;
+    margin-top: 10%;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+.row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.tabs{
+    margin:6% 0px ;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.link{
+    color: rgb(255, 255, 255) !important;
+    background-color: black !important;
+    margin: 0px 20px;
+    border: 1px solid white;
+}
+.active{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255) !important;
+    margin: 0px 20px;
+    color: #000000 !important;
+
+}
+.cardscontainer{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectimage{
+    width: 75%;
+    height:30%;
+    margin :5% 0%;
+    border-radius: 5px ;
+}
+.aboutproject{
+    font-size: 1.7vw;
+    color: #ffffff;
+    margin:5% 2%;
+}
+.tab-content{
+    max-width: 100%;
+    background-color: aqua;
+}
+.projcards{
+    height:50vh;
+    width:27%;
+    margin: 5% 2%;
+    border-radius: 20px;
+    background-color: #000000;
+    text-align: center;
+    border : 1px solid white;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    
+    
+    .projcards{
+        height: 70vh;
+        width:50%;
+    }
+   
+}
